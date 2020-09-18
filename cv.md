@@ -18,3 +18,7 @@ I want to learn and improve in programming.
 ### Education ###
 -----
 HTML Academy, video course YouTube.
+### English ###
+---
+
+Intermediate level, but with a dictionary much better.
