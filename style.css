@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(232, 232, 232);
+}
+
+
+.myself{
+    height: 350px;
+    max-width: 900px;
+    background-color:white;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    border-radius; 10px; 
+}
+img{
+    display: block;
+    height: 250px;
+    width: 200px;
+    margin: 30px;
+    }
+.discription{
+    font-size: 23px;
+    padding-top:50px ;
+}
+
+.education{
+    max-width: 900px;
+    height: 120px;
+    margin: 20px auto;
+    background-color:white;
+}
+
+h3{
+    font-size: 35px;
+    text-align: center;
+}
+.education p{
+    font-size: 23px;
+    text-align: center;
+}
+.skills{   
+        max-width: 900px;
+        height: 120px;
+        margin: 20px auto;
+        background-color:white;
+}
+
+.skills p{
+    font-size: 23px;
+    text-align: center;
+}
+
+.career{   
+    max-width: 900px;
+    height: 120px;
+    margin: 20px auto;
+    background-color:white;}
+
+.career p {
+    font-size: 23px;
+    text-align: center;
+}
+
+.hobby{   
+    max-width: 900px;
+    height: 120px;
+    margin: 20px auto;
+    background-color:white;}
+
+.hobby p {
+    font-size: 23px;
+    text-align: center;
+}
