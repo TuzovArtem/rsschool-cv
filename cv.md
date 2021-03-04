@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Tuzov Artem #
 _____
 #### Contact info ###
@@ -24,4 +24,4 @@ HTML Academy, video course YouTube.
 
 Intermediate level, but with a dictionary much better.
 =======
->>>>>>> parent of 6988e5d... feat: add information in cv.md
+
