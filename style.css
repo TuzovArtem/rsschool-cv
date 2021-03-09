@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(232, 232, 232);
+}
+
+
+.myself{
+    height: 350px;
+    max-width: 900px;
+    background-color:white;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px; 
+}
+img{
+    display: block;
+    height: 250px;
+    width: 200px;
+    margin: 30px;
+    }
+.discription{
+    font-size: 23px;
+    padding-top:50px ;
+}
+
+.contact{
+    list-style-type: none;
+    padding:0;
+}
+.contact__item{
+    margin-top: 16px;
+}
+.contact__link{
+    font-size: 23px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.contact__link:hover{
+    text-decoration: underline;
+}
+
+.education{
+    max-width: 900px;
+    height: 120px;
+    margin: 20px auto;
+    background-color:white;
+}
+
+h3{
+    font-size: 35px;
+    text-align: center;
+}
+.education p{
+    font-size: 23px;
+    text-align: center;
+}
+.skills{   
+        max-width: 900px;
+        height: 120px;
+        margin: 20px auto;
+        background-color:white;
+}
+
+.skills li{
+    font-size: 23px;
+    text-align: center;
+    margin: 3px;
+}
+.skills ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+}
+
+.career{   
+    max-width: 900px;
+    height: 120px;
+    margin: 20px auto;
+    background-color:white;}
+
+.career p {
+    font-size: 23px;
+    text-align: center;
+}
+
+.hobby{   
+    max-width: 900px;
+    height: 120px;
+    margin: 20px auto;
+    background-color:white;
+}
+
+.hobby p {
+    font-size: 23px;
+    text-align: center;
+}
+
+ mark{
+    background-color:none;
+}
+
+.logo{
+    display: block;
+    width: 80px;
+}
+
+footer{
+    max-width: 900px; 
+    margin: 20px auto;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a{
+    display: block;
+    margin: 5px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.time{
+    cursor: default;
+    color:black
+}
