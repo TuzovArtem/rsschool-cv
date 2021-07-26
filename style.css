@@ -23,6 +23,24 @@ img{
     padding-top:50px ;
 }
 
+.contact{
+    list-style-type: none;
+    padding:0;
+}
+.contact__item{
+    margin-top: 16px;
+}
+.contact__link{
+    font-size: 23px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.contact__link:hover{
+    text-decoration: underline;
+}
+
 .education{
     max-width: 900px;
     height: 120px;
@@ -45,9 +63,16 @@ h3{
         background-color:white;
 }
 
-.skills p{
+.skills li{
     font-size: 23px;
     text-align: center;
+    margin: 3px;
+}
+.skills ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
 }
 
 .career{   
@@ -65,9 +90,41 @@ h3{
     max-width: 900px;
     height: 120px;
     margin: 20px auto;
-    background-color:white;}
+    background-color:white;
+}
 
 .hobby p {
     font-size: 23px;
     text-align: center;
+}
+
+ mark{
+    background-color:none;
+}
+
+.logo{
+    display: block;
+    width: 80px;
+}
+
+footer{
+    max-width: 900px; 
+    margin: 20px auto;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a{
+    display: block;
+    margin: 5px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.time{
+    cursor: default;
+    color:black
 }
