@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
      <link rel="stylesheet" href="style.css">
+
+     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+     <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
     
@@ -35,14 +39,36 @@
       <p>	Medical device engineer at a cancer center</p>
     </section>
 	
-    <section class='skills'>
-      <h3>Skills</h3>
-       <ul>   
-         <li>Html</li>  
-         <li>Css</li>  
-         <li>JavaScrip</li>  
-         </ul>
-		</section>
+    <section class='skils'>
+      <h3>Skils</h3>
+       <ul class='skils__list'>   
+         <li class='skils__item'> 
+           <div class='skils__item_text'>Html</div> 
+           <img class="skils__img" src="./img/level.png" alt="">
+          </li> 
+
+          <li class='skils__item'> 
+            <div class='skils__item_text'>Css</div> 
+            <img class="skils__img" src="./img/level.png" alt="">
+           </li>  
+
+           <li class='skils__item'> 
+            <div class='skils__item_text'>JavaScript</div> 
+            <img class="skils__img" src="./img/level.png" alt="">
+           </li> 
+    </section>
+    
+    <section class="code-example">
+      <h3>Code Example</h3>
+      <pre><code class="JavaScript">
+        function getMiddle(s)
+        {
+         if (s.length%2===0)
+         {return s.slice((s.length/2-1),(s.length/2+1))}
+         if (s.length%2!==0)
+         {return s.slice((s.length/2),(s.length/2+1))}
+        }</code></pre>
+    </section>
 		
 		<section class="hobby">
 			<h3>Hobby</h3>
