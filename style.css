@@ -5,13 +5,17 @@ body{
 
 
 .myself{
-    height: 350px;
+   
     max-width: 900px;
     background-color:white;
     margin: 20px auto;
     display: flex;
     justify-content: center;
     border-radius: 10px; 
+}
+
+section{
+    border-radius:10px;
 }
 img{
     display: block;
@@ -44,14 +48,15 @@ img{
 
 .education{
     max-width: 900px;
-    height: 120px;
     margin: 20px auto;
     background-color:white;
+    padding: 15px 0;
 }
 
 h3{
     font-size: 35px;
     text-align: center;
+    margin: 0;
 }
 .education p{
     font-size: 23px;
@@ -61,7 +66,7 @@ h3{
     max-width: 900px;
     margin: 20px auto;
     background-color:white;
-    padding-bottom: 1px;
+    padding: 15px 0;
 }
 
 .skils__img{
@@ -89,9 +94,10 @@ h3{
 
 .career{   
     max-width: 900px;
-    height: 120px;
     margin: 20px auto;
-    background-color:white;}
+    background-color:white;
+    padding: 15px 0;
+}
 
 .career p {
     font-size: 23px;
@@ -102,12 +108,13 @@ h3{
     max-width: 900px;
     margin: 20px auto;
     background-color:white;  
+    padding: 15px 0;
 }
 .hobby{   
     max-width: 900px;
-    height: 120px;
     margin: 20px auto;
     background-color:white;
+    padding: 15px 0;
 }
 
 .hobby p {
