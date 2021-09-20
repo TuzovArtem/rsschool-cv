@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(232, 232, 232);
+    font-size: 26px;
+}
+
+
+.myself{
+   
+    max-width: 900px;
+    background-color:white;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px; 
+}
+
+section{
+    border-radius:10px;
+}
+img{
+    display: block;
+    height: 250px;
+    width: 200px;
+    margin: 30px;
+    }
+.discription{
+    font-size: 23px;
+    padding-top:50px ;
+}
+
+.contact{
+    list-style-type: none;
+    padding:0;
+}
+.contact__item{
+    margin-top: 16px;
+}
+.contact__link{
+    font-size: 23px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.contact__link:hover{
+    text-decoration: underline;
+}
+
+.education{
+    max-width: 900px;
+    margin: 20px auto;
+    background-color:white;
+    padding: 15px 0;
+}
+
+h3{
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+}
+.education p{
+    font-size: 23px;
+    text-align: center;
+}
+.skils{   
+    max-width: 900px;
+    margin: 20px auto;
+    background-color:white;
+    padding: 15px 0;
+}
+
+.skils__img{
+    height: 35px;
+    margin: 0;
+}
+.skils__item{
+    display: flex;
+    font-size: 26px;
+    text-align: center;
+    margin: 3px;
+}
+.skils__item_text{
+    align-self: center;
+    margin-right: 20px;
+}
+.skils__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+}
+
+.career{   
+    max-width: 900px;
+    margin: 20px auto;
+    background-color:white;
+    padding: 15px 0;
+}
+
+.career p {
+    font-size: 23px;
+    text-align: center;
+}
+
+.code-example{
+    max-width: 900px;
+    margin: 20px auto;
+    background-color:white;  
+    padding: 15px 0;
+}
+.hobby{   
+    max-width: 900px;
+    margin: 20px auto;
+    background-color:white;
+    padding: 15px 0;
+}
+
+.hobby p {
+    font-size: 23px;
+    text-align: center;
+}
+
+ mark{
+    background-color:none;
+}
+
+.logo{
+    display: block;
+    width: 80px;
+}
+
+footer{
+    max-width: 900px; 
+    margin: 20px auto;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav a{
+    display: block;
+    margin: 5px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.time{
+    cursor: default;
+    color:black
+}
